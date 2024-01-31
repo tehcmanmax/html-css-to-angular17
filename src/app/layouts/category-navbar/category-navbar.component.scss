@@ -1,0 +1,17 @@
+.navbar {
+    background-color: var(--color-base);
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+.navbar .nav-link.active {
+    color: var(--color-brand);
+}
