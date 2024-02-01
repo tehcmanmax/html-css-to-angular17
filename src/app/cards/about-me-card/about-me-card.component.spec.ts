@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { EducationCardComponent } from './education-card.component';
+import {EducationCardComponent} from './about-me-card.component';
 
 describe('EducationCardComponent', () => {
   let component: EducationCardComponent;
@@ -10,8 +10,8 @@ describe('EducationCardComponent', () => {
     await TestBed.configureTestingModule({
       imports: [EducationCardComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(EducationCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
