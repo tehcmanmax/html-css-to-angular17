@@ -11,11 +11,10 @@ import {HomeComponent} from './components/home/home.component';
 import {ReviewsComponent} from './components/reviews/reviews.component';
 import {ServicesComponent} from './components/services/services.component';
 import {WorkComponent} from './components/work/work.component';
-import { ContentWrapperComponent } from './utilities/content-wrapper/content-wrapper.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, CategoryNavbarComponent, FooterComponent, PostCardComponent, ContentWrapperComponent,
+  imports: [CommonModule, RouterOutlet, CategoryNavbarComponent, FooterComponent, PostCardComponent,
     AboutComponent, BlogComponent, ContactComponent, HomeComponent, ReviewsComponent, ServicesComponent, WorkComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
