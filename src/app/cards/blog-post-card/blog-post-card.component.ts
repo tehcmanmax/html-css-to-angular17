@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-blog-post-card',
@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './blog-post-card.component.scss'
 })
 export class BlogPostCardComponent {
-
+  @Input() image: string = '';
+  @Input() date: string = '';
+  @Input() title: string = '';
+  @Input() readMore: string = 'Read Me';
 }
