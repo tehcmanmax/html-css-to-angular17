@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-service-card',
@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './service-card.component.scss'
 })
 export class ServiceCardComponent {
-
+  @Input() icon: string = '';
+  @Input() title: string = 'a title';
+  @Input() paragraph: string = 'paragraph';
+  readonly link: string = 'Read More';
 }
