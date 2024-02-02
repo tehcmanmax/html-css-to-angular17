@@ -77,24 +77,7 @@ img {
   color: $color-base;
 }
 
-/* NAVBAR */
-.navbar {
-  background-color: $color-base;
-}
 
-.navbar .nav-link {
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.navbar .nav-link:hover {
-  color: $color-brand;
-}
-
-.navbar .nav-link.active {
-  color: $color-brand;
-}
 
 @media (min-width: 992px) {
   .navbar {

@@ -1,17 +1,19 @@
+@use "../../../styles.scss";
+
 .navbar {
-    background-color: var(--color-base);
+  background-color: styles.$color-base;
 }
 
 .navbar .nav-link {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .navbar .nav-link:hover {
-    color: var(--color-brand);
+  color: styles.$color-brand;
 }
 
 .navbar .nav-link.active {
-    color: var(--color-brand);
+  color: styles.$color-brand;
 }
