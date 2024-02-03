@@ -1,4 +1,4 @@
-document.onreadystatechange = function () {
+ document.onreadystatechange = function () {
   if (document.readyState == "complete") {
     AOS.init({
       // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
